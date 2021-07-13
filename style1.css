@@ -226,8 +226,9 @@ img {
   height: 70px;
 }
 .footer-info {
+  margin-left: 105px;
   width: 380px;
-  float: left;
+  float:right;
 
   margin-left: 100px;
 }
