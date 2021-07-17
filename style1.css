@@ -21,6 +21,26 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+a:hover{
+  color: rgb(252, 16, 16);
+}
+.yu{
+  font-size: 30px;
+}
+
+.lin{
+  position: absolute;
+  margin-left: 1050px;
+  width: 20%;
+  
+  background-color: rgb(141, 166, 221);
+  border: solid black;
+  border-radius: 7px;
+}
+b:hover{
+  color: rgb(217, 255, 0);
+  pointer-events: stroke;
+}
 
 .navbar {
   display: flex;
