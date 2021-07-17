@@ -56,8 +56,61 @@ input[type=text], select, textarea {
     font-size: 21px;
   }
   .sth{
-    margin-left: 330px;
+    margin-left: 350px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 55px;
   }
-  
+  .imh{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  * {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.topp{
+  font-size: 3cm;
+  margin-left: 300px;
+
+}
