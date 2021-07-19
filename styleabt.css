@@ -1,7 +1,8 @@
 .headding{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 400px;
-    font-size: 80px;
+    margin-left: 450px;
+    font-size: 60px;
+    padding: 10px;
 }
 
 body {
@@ -21,7 +22,7 @@ html {
   float: left;
   width: 50%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 0 4px;
 }
 
 .card {
@@ -38,7 +39,7 @@ html {
 }
 
 .container {
-  padding: 0 16px;
+  padding: 0 10px;
 }
 
 .container::after, .row::after {
@@ -74,7 +75,7 @@ html {
   }
 }
 .team{
-  font-size: 40px;
+  font-size: 30px;
   background-color: rgba(223, 199, 199, 0.959);
   
 }

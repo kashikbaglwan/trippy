@@ -20,6 +20,7 @@ body {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 a:hover{
   color: rgb(252, 16, 16);
@@ -52,7 +53,7 @@ b:hover{
   display: flex;
 }
 .navbar-item {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin: 10px;
 }
@@ -191,4 +192,10 @@ a {
   height: 100%;
   width: 100%;
   margin-left: 10px;
+  width: 20%;
+}
+.op{
+  font-size: 100px;
+  text-align: center;
+  padding-bottom: 10px;
 }

@@ -19,13 +19,14 @@
              <div class="navbar-items">
                  <div class="navbar-item"><a href="index.html">HOME</a></div>
                  <div class="navbar-item"><a href="places.html">PLACES</a></div>
-                
                  <div class="navbar-item"><a href="abtus.html">ABOUT US</a></div>
+                 <div class="navbar-item"><a href="sgup.html">SIGNUP</a></div>
+                 <div class="navbar-item"><a href="mem.html">MEMBER</a></div>
              </div>
               
          </div>
     </header>
-    <div class=top><align="centre"><h1>Contact Us</h1> </div>
+    <div class=top>Contact Us </div>
 <div class=ci>
     <div class=coninfo><h1>General Contact Information:</h1></div>
      <div class=info><p>Mailing Address: TriPPy Inc.,786 Weed Street,Downtown,
@@ -37,13 +38,13 @@
 </div>   
     <div class="containers">
         <div class=sth>Still have a Query?Ask it .</div>>
-        <form >
+        <form id="contactform" method="POST" action="index.html" >
       
           <label for="fname">Full Name:</label>
-          <input type="text" id="fname" name="firstname" placeholder="Name here..">
+          <input type="text" id="name" name="name" placeholder="Name here..">
       
           <label for="lname">Email Address:</label>
-          <input type="text" id="lname" name="lastname" placeholder="email here...">
+          <input type="text" id="email" name="email" placeholder="email here...">
       
           <label for="country">Country</label>
           <select id="country" name="country">
@@ -57,7 +58,7 @@
           </select>
       
           <label for="subject">Description:</label>
-          <textarea id="subject" name="subject" placeholder="Write Here...." style="height:200px"></textarea>
+          <textarea id="desc" name="desc" placeholder="Write Here...." style="height:200px"></textarea>
       
           <input type="submit" value="Submit">
       
