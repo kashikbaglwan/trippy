@@ -13,11 +13,11 @@ body {
 }
 
 .centered {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(6, 71, 97);
-  font-size:75px;
+  font-family:'Caveat', cursive;
+  color: rgb(0, 6, 53);
+  font-size:69px;
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
 
